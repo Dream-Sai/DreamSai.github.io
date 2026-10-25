@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1f1f1f">
+  <meta name="description" content="DREAMSAI Servicios de Ingeniería: software y recursos para ingeniería, arquitectura, diseño y construcción.">
+  <title>DREAMSAI | Servicios de Ingeniería</title>
+  <link rel="shortcut icon" href="img/icono.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="styles/mystyles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="DREAMSAI, inicio">
+        <img src="img/logo balnco-Photoroom.png" alt="DREAMSAI Servicios de Ingeniería" class="brand-logo">
+      </a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Abrir menú" aria-controls="nav-links" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+      <div class="nav-links" id="nav-links">
+        <a class="nav-link active" href="#inicio">Inicio</a>
+        <a class="nav-link" href="#productos">Productos</a>
+        <a class="nav-link" href="#servicios">Servicios</a>
+        <a class="nav-link" href="#contacto">Contacto</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="hero-pill"><span class="pill-dot"></span> Software y recursos de ingeniería</span>
+          <h1>LICENCIAS PERMANENTES <span> DISPONIBLES.</span></h1>
+          <p>Software para ingeniería, arquitectura, diseño y construcción, con atención y soporte técnico en la instalación.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#productos">Ver catálogo</a>
+            <a class="button button-outline" href="https://wa.link/9wfmxq" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> Consultar</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img src="img/mezcla de iconos.png" alt="Iconos de programas de ingeniería y diseño" class="hero-image" onerror="this.style.display='none'">
+        </div>
+      </div>
+    </section>
+
+    <section class="catalog-section" id="productos">
+      <div class="container">
+        <div class="section-heading">
+          <div><h2>Catálogo de software</h2><p>Busca por nombre o versión y filtra por categoría.</p></div>
+          <div class="catalog-count"><strong id="result-count">0</strong><span>productos</span></div>
+        </div>
+
+        <div class="catalog-tools">
+          <label class="search-box" for="product-search"><i class="fa-solid fa-magnifying-glass"></i><input id="product-search" type="search" placeholder="Buscar AutoCAD, Revit, Civil 3D..." autocomplete="off"></label>
+          <button class="clear-filters" id="clear-filters" type="button"><i class="fa-solid fa-rotate-left"></i> Limpiar</button>
+        </div>
+        <div class="chips" id="category-chips" role="group" aria-label="Filtrar por categoría">
+          <button class="chip is-active" type="button" data-category="all" aria-pressed="true">Todos</button>
+          <button class="chip" type="button" data-category="autodesk" aria-pressed="false">Autodesk</button>
+          <button class="chip" type="button" data-category="estructural" aria-pressed="false">Estructuras</button>
+          <button class="chip" type="button" data-category="gis" aria-pressed="false">GIS y topografía</button>
+          <button class="chip" type="button" data-category="diseno" aria-pressed="false">Diseño 3D</button>
+          <button class="chip" type="button" data-category="complementos" aria-pressed="false">Complementos</button>
+        </div>
+
+        <p class="catalog-status" id="catalog-status" aria-live="polite">Cargando catálogo...</p>
+        <div class="product-grid" id="product-catalog"></div>
+        <div class="empty-state" id="empty-state" hidden>
+          <span><i class="fa-solid fa-magnifying-glass"></i></span>
+          <h3>No encontramos resultados</h3>
+          <p>Prueba con otro nombre o cambia la categoría.</p>
+          <button class="button button-primary" id="empty-reset" type="button">Ver todos los productos</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-section" id="servicios">
+      <div class="container">
+        <div class="section-heading centered"><div><h2>Servicios DREAMSAI</h2><p>Atención técnica para que empieces a trabajar sin complicaciones.</p></div></div>
+        <div class="service-grid">
+          <article class="service-card"><span class="service-icon"><i class="fa-solid fa-laptop-code"></i></span><div><h3>Soporte de instalación</h3><p>Orientación técnica remota durante la instalación del software compatible.</p></div></article>
+          <article class="service-card"><span class="service-icon"><i class="fa-solid fa-headset"></i></span><div><h3>Atención personalizada</h3><p>Consulta disponibilidad, detalles y requisitos directamente con nosotros.</p></div></article>
+          <article class="service-card"><span class="service-icon"><i class="fa-solid fa-book-open"></i></span><div><h3>Recursos digitales</h3><p>Herramientas y recursos para ingeniería y arquitectura.</p></div></article>
+        </div>
+        <div class="contact-banner">
+          <div><h2>¿Tienes una consulta?</h2><p>Escríbenos y revisamos juntos las opciones disponibles.</p></div>
+          <a class="button button-buy" href="https://wa.link/9wfmxq" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> Contactar por WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contacto">
+    <div class="container footer-grid">
+      <div class="footer-brand"><img src="img/logo balnco-Photoroom.png" alt="DREAMSAI" class="footer-logo"><p>Software de Ingeniería y Arquitectura.</p></div>
+      <div class="footer-col"><h3>Contacto</h3><a href="https://wa.link/9wfmxq" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> +591 77503416</a><a href="mailto:dreamsai306@gmail.com"><i class="fa-regular fa-envelope"></i> dreamsai306@gmail.com</a></div>
+      <!-- Redes: pega aquí la URL de tu canal y quita el atributo "hidden" -->
+      <div class="footer-col" hidden><h3>Redes</h3><a href="PEGA-AQUI-TU-URL" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i> YouTube</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="current-year">2026</span> DREAMSAI. Todos los derechos reservados.</span><a href="#inicio">Volver arriba ↑</a></div>
+  </footer>
+
+  <div class="modal" id="info-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-backdrop"></div>
+    <div class="modal-panel">
+      <button class="modal-close" id="modal-close" type="button" aria-label="Cerrar"><i class="fa-solid fa-xmark"></i></button>
+      <div class="modal-head"><h2 id="modal-title">Información del producto</h2><span class="modal-price" id="modal-price"></span></div>
+      <p class="modal-description" id="modal-description"></p>
+      <div id="modal-specs"></div>
+      <div class="modal-actions">
+        <a id="modal-buy" class="button button-buy" href="#" target="_blank" rel="noopener noreferrer">Comprar</a>
+        <a class="button button-details" href="https://wa.link/9wfmxq" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> Consultar</a>
+      </div>
+    </div>
+  </div>
+  <script src="js/index.js" defer></script>
+</body>
+</html>
