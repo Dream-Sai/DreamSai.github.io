@@ -1,51 +1,51 @@
-// Catálogo DREAMSAI: se conservaron los productos, precios, imágenes y enlaces del sitio original.
+/// Catálogo DREAMSAI: se conservaron los productos, precios, imágenes y enlaces del sitio original.
 const productos = [
 { 
     nombre: "REVIT 2027", 
     precio: 6.99, 
-    imagen: "img/Ico REVIT.png", 
+    imagen: "img/Ico REVIT.webp", 
     enlace: "https://pay.hotmart.com/H107240811Y", 
     info: "Esta licencia es permanente y se activa a través de LMTOOLS, una herramienta que puede resultar algo confusa si no tienes experiencia previa con este tipo de instalaciones. Es normal tener dudas durante el proceso, así que no dudes en escribirnos. Estamos aquí para ayudarte a que todo funcione sin complicaciones." 
   },
 { 
     nombre: "CIVIL 3D 2027", 
     precio: 6.99,
-    imagen: "img/Ico Civil 3D.png", 
+    imagen: "img/Ico Civil 3D.webp", 
     enlace: "https://pay.hotmart.com/H107240811Y", 
     info: "Esta licencia es permanente y se activa a través de LMTOOLS, una herramienta que puede resultar algo confusa si no tienes experiencia previa con este tipo de instalaciones. Es normal tener dudas durante el proceso, así que no dudes en escribirnos. Estamos aquí para ayudarte a que todo funcione sin complicaciones." 
   },
 { 
     nombre: "AUTOCAD 2027", 
     precio: 6.99,
-    imagen: "img/Ico AutoCAD.png", 
+    imagen: "img/Ico AutoCAD.webp", 
     enlace: "https://pay.hotmart.com/H107240811Y", 
     info: "Esta licencia es permanente y se activa a través de LMTOOLS, una herramienta que puede resultar algo confusa si no tienes experiencia previa con este tipo de instalaciones. Es normal tener dudas durante el proceso, así que no dudes en escribirnos. Estamos aquí para ayudarte a que todo funcione sin complicaciones." 
   },
 { 
     nombre: "REVIT 2026", 
     precio: 5, 
-    imagen: "img/Ico REVIT.png", 
+    imagen: "img/Ico REVIT.webp", 
     enlace: "https://pay.hotmart.com/I106417092D", 
     info: "Esta licencia es permanente y se activa a través de LMTOOLS, una herramienta que puede resultar algo confusa si no tienes experiencia previa con este tipo de instalaciones. Es normal tener dudas durante el proceso, así que no dudes en escribirnos. Estamos aquí para ayudarte a que todo funcione sin complicaciones." 
   },
 { 
     nombre: "CIVIL 3D 2026", 
     precio: 5, 
-    imagen: "img/Ico Civil 3D.png", 
+    imagen: "img/Ico Civil 3D.webp", 
     enlace: "https://pay.hotmart.com/I106417092D", 
     info: "Esta licencia es permanente y se activa a través de LMTOOLS, una herramienta que puede resultar algo confusa si no tienes experiencia previa con este tipo de instalaciones. Es normal tener dudas durante el proceso, así que no dudes en escribirnos. Estamos aquí para ayudarte a que todo funcione sin complicaciones." 
   },
 { 
     nombre: "AUTOCAD 2026", 
     precio: 5, 
-    imagen: "img/Ico AutoCAD.png", 
+    imagen: "img/Ico AutoCAD.webp", 
     enlace: "https://pay.hotmart.com/I106417092D", 
     info: "Esta licencia es permanente y se activa a través de LMTOOLS, una herramienta que puede resultar algo confusa si no tienes experiencia previa con este tipo de instalaciones. Es normal tener dudas durante el proceso, así que no dudes en escribirnos. Estamos aquí para ayudarte a que todo funcione sin complicaciones." 
   },
 { 
     nombre: "CIVIL 3D 2025", 
     precio: 5, 
-    imagen: "img/Ico Civil 3D.png", 
+    imagen: "img/Ico Civil 3D.webp", 
     enlace: "https://pay.hotmart.com/P99550552H", 
     info: "Esta licencia es permanente y se activa a través de LMTOOLS, una herramienta que puede resultar algo confusa si no tienes experiencia previa con este tipo de instalaciones. Es normal tener dudas durante el proceso, así que no dudes en escribirnos. Estamos aquí para ayudarte a que todo funcione sin complicaciones." 
   },
@@ -53,315 +53,315 @@ const productos = [
   { 
     nombre: "REVIT 2025", 
     precio: 5, 
-    imagen: "img/Ico REVIT.png", 
+    imagen: "img/Ico REVIT.webp", 
     enlace: "https://pay.hotmart.com/P99550552H", 
     info: "Esta licencia es permanente y se activa a través de LMTOOLS, una herramienta que puede resultar algo confusa si no tienes experiencia previa con este tipo de instalaciones. Es normal tener dudas durante el proceso, así que no dudes en escribirnos. Estamos aquí para ayudarte a que todo funcione sin complicaciones." 
   },
 { 
     nombre: "AUTOCAD 2025", 
     precio: 5, 
-    imagen: "img/Ico AutoCAD.png", 
+    imagen: "img/Ico AutoCAD.webp", 
     enlace: "https://pay.hotmart.com/P99550552H", 
     info: "Esta licencia es permanente y se activa a través de LMTOOLS, una herramienta que puede resultar algo confusa si no tienes experiencia previa con este tipo de instalaciones. Es normal tener dudas durante el proceso, así que no dudes en escribirnos. Estamos aquí para ayudarte a que todo funcione sin complicaciones." 
   },
 { 
     nombre: "AUTOCAD 2024", 
     precio: 5, 
-    imagen: "img/Ico AutoCAD.png", 
+    imagen: "img/Ico AutoCAD.webp", 
     enlace: "https://pay.hotmart.com/P99550552H", 
     info: "Esta licencia es permanente y se activa a través de LMTOOLS, una herramienta que puede resultar algo confusa si no tienes experiencia previa con este tipo de instalaciones. Es normal tener dudas durante el proceso, así que no dudes en escribirnos. Estamos aquí para ayudarte a que todo funcione sin complicaciones." 
   },
 { 
     nombre: "CIVIL 3D 2024", 
     precio: 5, 
-    imagen: "img/Ico Civil 3D.png", 
+    imagen: "img/Ico Civil 3D.webp", 
     enlace: "https://pay.hotmart.com/I106417092D", 
     info: "Esta licencia es permanente y se activa a través de LMTOOLS, una herramienta que puede resultar algo confusa si no tienes experiencia previa con este tipo de instalaciones. Es normal tener dudas durante el proceso, así que no dudes en escribirnos. Estamos aquí para ayudarte a que todo funcione sin complicaciones." 
   },
 { 
     nombre: "REVIT 2024", 
     precio: 5, 
-    imagen: "img/Ico REVIT.png", 
+    imagen: "img/Ico REVIT.webp", 
     enlace: "https://pay.hotmart.com/P99550552H", 
     info: "Esta licencia es permanente y se activa a través de LMTOOLS, una herramienta que puede resultar algo confusa si no tienes experiencia previa con este tipo de instalaciones. Es normal tener dudas durante el proceso, así que no dudes en escribirnos. Estamos aquí para ayudarte a que todo funcione sin complicaciones." 
   },
 { 
     nombre: "GLOBAL MAPPER PRO V26", 
     precio: 4, 
-    imagen: "img/Ico Goblal Mapper.png",
+    imagen: "img/Ico Goblal Mapper.webp",
     enlace: "https://pay.hotmart.com/M106418538S", 
     info: "GLOBAL MAPPER PRO V26 Una de las herramientas GIS más utilizadas para el manejo de información geoespacial. Incluye parche para habilitar todas las características del software."
   },
 { 
     nombre: "Global Mapper Pro v27", 
     precio: 4, 
-    imagen: "img/Ico global mapper v27.png",
+    imagen: "img/Ico global mapper v27.webp",
     enlace: "https://pay.hotmart.com/M106418538S", 
     info: "Global Mapper Pro v27.0.0, una potente herramienta GIS para visualizar, editar y analizar información geoespacial. Incluye parche para habilitar todas las características del software."
   },
 { 
     nombre: "CSiBridge v23", 
     precio: 4, 
-    imagen: "img/CSiBridge 23.png",
+    imagen: "img/CSiBridge 23.webp",
     enlace: "https://pay.hotmart.com/M106418538S", 
     info: "CSiBridge v23 es un software profesional para el modelado, análisis y diseño de puentes. Incluye herramientas avanzadas de ingeniería estructural y acceso completo a todas sus funciones mediante activador con licencia ilimitada." 
   },
 { 
     nombre: "ETABS v21", 
     precio: 4, 
-    imagen: "img/etabs.png",
+    imagen: "img/etabs.webp",
     enlace: "https://pay.hotmart.com/M106418538S", 
     info: "ETABS v21 Solución profesional para proyectos estructurales de cualquier escala. Incluye activador y acceso completo a las funciones disponibles." 
   },
 { 
     nombre: "SAFE v21", 
     precio: 4, 
-    imagen: "img/SAFE 21.png",
+    imagen: "img/SAFE 21.webp",
     enlace: "https://pay.hotmart.com/M106418538S", 
     info: "SAFE v21 Software ampliamente utilizado para el diseño de cimentaciones y losas estructurales. Incluye activador para uso completo del programa" 
   },
 { 
     nombre: "SAP2000 v25", 
     precio: 4, 
-    imagen: "img/SAP2000.png",
+    imagen: "img/SAP2000.webp",
     enlace: "https://pay.hotmart.com/M106418538S", 
     info: "SAP2000 v25 Edición estable y completa, ideal para quienes buscan una plataforma flexible para proyectos estructurales de todo tipo. Incluye activador y acceso a todas las herramientas disponibles." 
   }, 
 { 
     nombre: "PIX4DMAPPER ENTERPRISE V4.5.6", 
     precio: 5, 
-    imagen: "img/Pix4DMapper.png",
+    imagen: "img/Pix4DMapper.webp",
     enlace: "https://pay.hotmart.com/P99550552H", 
     info: "PIX4Dmapper Enterprise v4.5.6 para generación de mapas y modelos 3D. Incluye instalador y activador."
   },
 { 
     nombre: "CAD-Earth v8 (2017-2025)", 
     precio: 5, 
-    imagen: "img/CAD-Earth.png",
+    imagen: "img/CAD-Earth.webp",
     enlace: "https://pay.hotmart.com/P99550552H", 
     info: "Complemento CAD-Earth v8.1.5 para AutoCAD (2017-2025) orientado al trabajo con mapas, imágenes satelitales y datos topográficos. Incluye crack para su activación."
   },
 { 
     nombre: "CAD-Earth v9 (2021-2027)", 
     precio: 5, 
-    imagen: "img/CAD-Earth v9.png",
+    imagen: "img/CAD-Earth v9.webp",
     enlace: "https://pay.hotmart.com/P99550552H", 
     info: "Complemento CAD-Earth v9 para AutoCAD (2021-2027) orientado al trabajo con mapas, imágenes satelitales y datos topográficos. Incluye crack para su activación."
   },
 { 
     nombre: "Plugin CSixRevit 2025", 
     precio: 3.90, 
-    imagen: "img/csixrevit.png",
+    imagen: "img/csixrevit.webp",
     enlace: "https://pay.hotmart.com/S106421115F", 
     info: "Complemento para Revit 2025 orientado a la automatización BIM y optimización de flujos de trabajo. Incluye Parche para su activación."
   },
 { 
     nombre: "Complementos Revit 2026", 
     precio: 3.90, 
-    imagen: "img/pluggin0.png",
+    imagen: "img/pluggin0.webp",
     enlace: "https://pay.hotmart.com/S106421115F", 
     info: "Complemento para Revit 2026 orientado a la automatización y optimización de flujos de trabajo. Incluye Parche para su activación."
   },
 { 
     nombre: "Complementos Revit 2027", 
     precio: 3.90, 
-    imagen: "img/pluggin0.png",
+    imagen: "img/pluggin0.webp",
     enlace: "https://pay.hotmart.com/S106421115F", 
     info: "Complemento para Revit 2027 orientado a la automatización y optimización de flujos de trabajo. Incluye Parche para su activación."
   },
 { 
     nombre: "Agisoft Metashape Pro v2.3.0", 
     precio: 5, 
-    imagen: "img/Ico Agisoft MetaShape.png",
+    imagen: "img/Ico Agisoft MetaShape.webp",
     enlace: "https://pay.hotmart.com/P99550552H", 
     info: "Agisoft Metashape Pro v2.3.0 es un programa que transforma fotografías en modelos 3D, mapas y nubes de puntos con gran precisión. Ideal para trabajos de topografía, drones e ingeniería. Incluye su Parche para su activación."
   },
 { 
     nombre: "Autodesk 3Ds Max 2025", 
     precio: 5, 
-    imagen: "img/3ds Max.png",
+    imagen: "img/3ds Max.webp",
     enlace: "https://pay.hotmart.com/I106417092D", 
     info: "Esta licencia es permanente y se activa a través de LMTOOLS, una herramienta que puede resultar algo confusa si no tienes experiencia previa con este tipo de instalaciones. Es normal tener dudas durante el proceso, así que no dudes en escribirnos. Estamos aquí para ayudarte a que todo funcione sin complicaciones."
   },
 { 
     nombre: "V-Ray 7 para 3Ds Max 2022–2027",
     precio: 4, 
-    imagen: "img/V-Ray 7.png",
+    imagen: "img/V-Ray 7.webp",
     enlace: "https://pay.hotmart.com/M106418538S", 
     info: "V-Ray 7 es uno de los motores de render más utilizados para 3ds Max, ideal para crear imágenes y animaciones con un acabado realista y de alta calidad. Incluye activador y acceso completo a todas las funciones disponibles."
   },
 { 
     nombre: "ReCap Pro 2025",
     precio: 5, 
-    imagen: "img/Recap 2025.png",
+    imagen: "img/Recap 2025.webp",
     enlace: "https://pay.hotmart.com/I106417092D", 
     info: "Esta licencia es permanente y se activa a través de LMTOOLS, una herramienta que puede resultar algo confusa si no tienes experiencia previa con este tipo de instalaciones. Es normal tener dudas durante el proceso, así que no dudes en escribirnos. Estamos aquí para ayudarte a que todo funcione sin complicaciones."
   },
 { 
     nombre: "ReCap Pro 2026",
     precio: 5, 
-    imagen: "img/Recap 2026.png",
+    imagen: "img/Recap 2026.webp",
     enlace: "https://pay.hotmart.com/I106417092D", 
     info: "Esta licencia es permanente y se activa a través de LMTOOLS, una herramienta que puede resultar algo confusa si no tienes experiencia previa con este tipo de instalaciones. Es normal tener dudas durante el proceso, así que no dudes en escribirnos. Estamos aquí para ayudarte a que todo funcione sin complicaciones."
   },
 { 
     nombre: "ReCap Pro 2027",
     precio: 6.99,
-    imagen: "img/Recap 2027.png",
+    imagen: "img/Recap 2027.webp",
     enlace: "https://pay.hotmart.com/H107240811Y", 
     info: "Esta licencia es permanente y se activa a través de LMTOOLS, una herramienta que puede resultar algo confusa si no tienes experiencia previa con este tipo de instalaciones. Es normal tener dudas durante el proceso, así que no dudes en escribirnos. Estamos aquí para ayudarte a que todo funcione sin complicaciones."
   },
 { 
     nombre: "Graphisoft Archicad v29",
     precio: 5, 
-    imagen: "img/Archicad 29.png",
+    imagen: "img/Archicad 29.webp",
     enlace: "https://pay.hotmart.com/P99550552H", 
     info: "Graphisoft Archicad v29, Software BIM para diseño arquitectónico, modelado 3D y documentación de proyectos. viene con la licencia para su activación."
   },
 { 
     nombre: "Inventor PRO 2025",
     precio: 5, 
-    imagen: "img/Inventor 2025.png",
+    imagen: "img/Inventor 2025.webp",
     enlace: "https://pay.hotmart.com/P99550552H", 
     info: "Esta licencia es permanente y se activa a través de LMTOOLS, una herramienta que puede resultar algo confusa si no tienes experiencia previa con este tipo de instalaciones. Es normal tener dudas durante el proceso, así que no dudes en escribirnos. Estamos aquí para ayudarte a que todo funcione sin complicaciones."
   },
 { 
     nombre: "Inventor PRO 2026",
     precio: 5, 
-    imagen: "img/Inventor 2026.png",
+    imagen: "img/Inventor 2026.webp",
     enlace: "https://pay.hotmart.com/P99550552H", 
     info: "Esta licencia es permanente y se activa a través de LMTOOLS, una herramienta que puede resultar algo confusa si no tienes experiencia previa con este tipo de instalaciones. Es normal tener dudas durante el proceso, así que no dudes en escribirnos. Estamos aquí para ayudarte a que todo funcione sin complicaciones."
   },
 { 
     nombre: "Inventor PRO 2027",
     precio: 6.99,
-    imagen: "img/Inventor 2027.png",
+    imagen: "img/Inventor 2027.webp",
     enlace: "https://pay.hotmart.com/H107240811Y", 
     info: "Esta licencia es permanente y se activa a través de LMTOOLS, una herramienta que puede resultar algo confusa si no tienes experiencia previa con este tipo de instalaciones. Es normal tener dudas durante el proceso, así que no dudes en escribirnos. Estamos aquí para ayudarte a que todo funcione sin complicaciones."
   },
 { 
     nombre: "InfraWorks 2025",
     precio: 5, 
-    imagen: "img/InfraWorks 2025.png",
+    imagen: "img/InfraWorks 2025.webp",
     enlace: "https://pay.hotmart.com/P99550552H", 
     info: "Esta licencia es permanente y se activa a través de LMTOOLS, una herramienta que puede resultar algo confusa si no tienes experiencia previa con este tipo de instalaciones. Es normal tener dudas durante el proceso, así que no dudes en escribirnos. Estamos aquí para ayudarte a que todo funcione sin complicaciones."
   },
 { 
     nombre: "InfraWorks 2026",
     precio: 5, 
-    imagen: "img/InfraWorks 2026.png",
+    imagen: "img/InfraWorks 2026.webp",
     enlace: "https://pay.hotmart.com/P99550552H", 
     info: "Esta licencia es permanente y se activa a través de LMTOOLS, una herramienta que puede resultar algo confusa si no tienes experiencia previa con este tipo de instalaciones. Es normal tener dudas durante el proceso, así que no dudes en escribirnos. Estamos aquí para ayudarte a que todo funcione sin complicaciones."
   },
 { 
     nombre: "InfraWorks 2027",
     precio:  6.99,
-    imagen: "img/InfraWorks 2027.png",
+    imagen: "img/InfraWorks 2027.webp",
     enlace: "https://pay.hotmart.com/H107240811Y", 
     info: "Esta licencia es permanente y se activa a través de LMTOOLS, una herramienta que puede resultar algo confusa si no tienes experiencia previa con este tipo de instalaciones. Es normal tener dudas durante el proceso, así que no dudes en escribirnos. Estamos aquí para ayudarte a que todo funcione sin complicaciones."
   },
 { 
     nombre: "Vehicle Tracking 2025",
     precio: 5, 
-    imagen: "img/Vehicle Tracking 2025.png",
+    imagen: "img/Vehicle Tracking 2025.webp",
     enlace: "https://pay.hotmart.com/P99550552H", 
     info: "Autodesk Vehicle Tracking 2025 es una solución para el análisis de rutas, maniobras de vehículos y el diseño eficiente de proyectos viales y de transporte."
   },
 { 
     nombre: "Vehicle Tracking 2026",
     precio: 5, 
-    imagen: "img/Vehicle Tracking 2026.png",
+    imagen: "img/Vehicle Tracking 2026.webp",
     enlace: "https://pay.hotmart.com/P99550552H", 
     info: "Autodesk Vehicle Tracking 2026 es una solución para el análisis de rutas, maniobras de vehículos y el diseño eficiente de proyectos viales y de transporte."
   },
 { 
     nombre: "Vehicle Tracking 2027",
     precio: 5, 
-    imagen: "img/Vehicle Tracking 2027.png",
+    imagen: "img/Vehicle Tracking 2027.webp",
     enlace: "https://pay.hotmart.com/P99550552H", 
     info: "Autodesk Vehicle Tracking 2027 es una solución para el análisis de rutas, maniobras de vehículos y el diseño eficiente de proyectos viales y de transporte."
   },
 { 
     nombre: "NavisWorks 2025",
     precio: 5, 
-    imagen: "img/NavisWorks 2025.png",
+    imagen: "img/NavisWorks 2025.webp",
     enlace: "https://pay.hotmart.com/P99550552H", 
     info: "Navisworks 2025 es una potente herramienta para la revisión, coordinación y detección de interferencias en proyectos BIM. Este producto incluye los archivos de instalación, guía de instalación paso a paso y un activador para su funcionamiento. Ideal para ingenieros, arquitectos y profesionales de la construcción."
   },
 { 
     nombre: "NavisWorks 2026",
     precio: 5, 
-    imagen: "img/NavisWorks 2026.png",
+    imagen: "img/NavisWorks 2026.webp",
     enlace: "https://pay.hotmart.com/P99550552H", 
     info: "Navisworks 2026 es una potente herramienta para la revisión, coordinación y detección de interferencias en proyectos BIM. Este producto incluye los archivos de instalación, guía de instalación paso a paso y un activador para su funcionamiento. Ideal para ingenieros, arquitectos y profesionales de la construcción."
   },
 { 
     nombre: "NavisWorks 2027",
     precio: 6.99,
-    imagen: "img/NavisWorks 2027.png",
+    imagen: "img/NavisWorks 2027.webp",
     enlace: "https://pay.hotmart.com/H107240811Y", 
     info: "Navisworks 2027 es una potente herramienta para la revisión, coordinación y detección de interferencias en proyectos BIM. Este producto incluye los archivos de instalación, guía de instalación paso a paso y un activador para su funcionamiento. Ideal para ingenieros, arquitectos y profesionales de la construcción."
   },
 { 
     nombre: "AutoCAD Electrical 2025",
     precio: 5, 
-    imagen: "img/Electrical 2025.png",
+    imagen: "img/Electrical 2025.webp",
     enlace: "https://pay.hotmart.com/S106861616M", 
     info: "AutoCAD Electrical 2025 es una potente herramienta para el diseño y documentación de sistemas de control eléctrico. Este producto incluye los archivos de instalación, guía de instalación paso a paso y un activador para su funcionamiento. Ideal para ingenieros eléctricos, diseñadores y profesionales de la automatización industrial."
   },
 { 
     nombre: "AutoCAD Electrical 2026",
     precio: 5, 
-    imagen: "img/Electrical 2026.png",
+    imagen: "img/Electrical 2026.webp",
     enlace: "https://pay.hotmart.com/S106861616M", 
     info: "AutoCAD Electrical 2026 es una potente herramienta para el diseño y documentación de sistemas de control eléctrico. Este producto incluye los archivos de instalación, guía de instalación paso a paso y un activador para su funcionamiento. Ideal para ingenieros eléctricos, diseñadores y profesionales de la automatización industrial."
   },
 { 
     nombre: "AutoCAD Electrical 2027",
     precio: 6.99,
-    imagen: "img/Electrical 2027.png",
+    imagen: "img/Electrical 2027.webp",
     enlace: "https://pay.hotmart.com/H107240811Y", 
     info: "AutoCAD Electrical 2027 es una potente herramienta para el diseño y documentación de sistemas de control eléctrico. Este producto incluye los archivos de instalación, guía de instalación paso a paso y un activador para su funcionamiento. Ideal para ingenieros eléctricos, diseñadores y profesionales de la automatización industrial."
   },
 { 
     nombre: "Autodesk Maya 2025 (Multilenguaje)",
     precio: 5, 
-    imagen: "img/Maya 2025.png",
+    imagen: "img/Maya 2025.webp",
     enlace: "https://pay.hotmart.com/Y106910195D", 
     info: "Autodesk Maya 2025 (Multilenguaje) es una potente herramienta profesional para el modelado, animación 3D, simulación y renderizado de alta calidad. Este paquete incluye los archivos de instalación, una guía de instalación paso a paso y un activador para su funcionamiento. Ideal para artistas 3D, animadores, desarrolladores de videojuegos, estudios de cine y profesionales de los efectos visuales que buscan crear proyectos con resultados de nivel profesional."
   },
 { 
     nombre: "Autodesk Maya 2026 (Multilenguaje)",
     precio: 5, 
-    imagen: "img/Maya 2026.png",
+    imagen: "img/Maya 2026.webp",
     enlace: "https://pay.hotmart.com/Y106910195D", 
     info: "Autodesk Maya 2026 (Multilenguaje) es una potente herramienta profesional para el modelado, animación 3D, simulación y renderizado de alta calidad. Este paquete incluye los archivos de instalación, una guía de instalación paso a paso y un activador para su funcionamiento. Ideal para artistas 3D, animadores, desarrolladores de videojuegos, estudios de cine y profesionales de los efectos visuales que buscan crear proyectos con resultados de nivel profesional."
   },
 { 
     nombre: "Autodesk Maya 2027 (Multilenguaje)",
     precio: 6.99,
-    imagen: "img/Maya 2027.png",
+    imagen: "img/Maya 2027.webp",
     enlace: "https://pay.hotmart.com/H107240811Y", 
     info: "Autodesk Maya 2027 (Multilenguaje) es una potente herramienta profesional para el modelado, animación 3D, simulación y renderizado de alta calidad. Este paquete incluye los archivos de instalación, una guía de instalación paso a paso y un activador para su funcionamiento. Ideal para artistas 3D, animadores, desarrolladores de videojuegos, estudios de cine y profesionales de los efectos visuales que buscan crear proyectos con resultados de nivel profesional."
   },
 { 
     nombre: "Robot Structural Analysis Pro 2025",
     precio: 5, 
-    imagen: "img/Robot 2025.png",
+    imagen: "img/Robot 2025.webp",
     enlace: "https://pay.hotmart.com/F106910808K", 
     info: "Robot Structural Analysis Professional 2025 (Multilenguaje) es un potente software profesional para el análisis estructural y diseño de estructuras mediante el método de elementos finitos. Este paquete incluye los archivos de instalación, una guía de instalación paso a paso y un activador para su funcionamiento. Ideal para ingenieros civiles, estructurales y profesionales de la construcción que necesitan analizar, verificar y optimizar estructuras con resultados precisos y confiables."
   },
 { 
     nombre: "Robot Structural Analysis Pro 2026",
     precio: 5, 
-    imagen: "img/Robot 2026.png",
+    imagen: "img/Robot 2026.webp",
     enlace: "https://pay.hotmart.com/F106910808K", 
     info: "Robot Structural Analysis Professional 2026 (Multilenguaje) es un potente software profesional para el análisis estructural y diseño de estructuras mediante el método de elementos finitos. Este paquete incluye los archivos de instalación, una guía de instalación paso a paso y un activador para su funcionamiento. Ideal para ingenieros civiles, estructurales y profesionales de la construcción que necesitan analizar, verificar y optimizar estructuras con resultados precisos y confiables."
   },
 { 
     nombre: "Robot Structural Analysis Pro 2027",
     precio: 6.99,
-    imagen: "img/Robot 2027.png",
+    imagen: "img/Robot 2027.webp",
     enlace: "https://pay.hotmart.com/H107240811Y", 
     info: "Robot Structural Analysis Professional 2027 (Multilenguaje) es un potente software profesional para el análisis estructural y diseño de estructuras mediante el método de elementos finitos. Este paquete incluye los archivos de instalación, una guía de instalación paso a paso y un activador para su funcionamiento. Ideal para ingenieros civiles, estructurales y profesionales de la construcción que necesitan analizar, verificar y optimizar estructuras con resultados precisos y confiables."
   },
