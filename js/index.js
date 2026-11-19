@@ -94,9 +94,9 @@ const productos = [
   },
 { 
     nombre: "Global Mapper Pro v27", 
-    precio: 4, 
+    precio: 5, 
     imagen: "img/Ico global mapper v27.webp",
-    enlace: "https://pay.hotmart.com/M106418538S", 
+    enlace: "https://pay.hotmart.com/P99550552H", 
     info: "Global Mapper Pro v27.0.0, una potente herramienta GIS para visualizar, editar y analizar información geoespacial. Incluye parche para habilitar todas las características del software."
   },
 { 
